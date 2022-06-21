@@ -11,7 +11,8 @@
   "author": "Harry Pham",
   "license": "ISC",
   "bin": {
-    "vymob": "bin/index.js"
+    "vymob": "bin/index.js",
+    "scripts": "bin/scripts.js"
   },
   "repository": {
     "type": "git",
