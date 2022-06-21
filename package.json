@@ -13,6 +13,10 @@
   "bin": {
     "vymob": "bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-tieumomo/vymob-frontend-tools.git"
+  },
   "dependencies": {
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "autoprefixer": "^10.4.7",
