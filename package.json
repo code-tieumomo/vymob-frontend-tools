@@ -1,0 +1,30 @@
+{
+  "name": "vymob-frontend-tools",
+  "version": "1.0.0",
+  "description": "Vymob Frontend Tools",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles/styles.scss -o styles/styles.css --map",
+    "production": "postcss styles/styles.scss -o styles/styles.css --env production --map",
+    "watch": "postcss styles/styles.scss -o styles/styles.css --map --watch"
+  },
+  "author": "Harry Pham",
+  "license": "ISC",
+  "bin": {
+    "vymob": "bin/index.js"
+  },
+  "dependencies": {
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "autoprefixer": "^10.4.7",
+    "chalk": "^4.1.2",
+    "cssnano": "^5.1.11",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "postcss-comment": "^2.0.0",
+    "postcss-import": "^14.1.0",
+    "postcss-minify": "^1.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-scss": "^4.0.4",
+    "tailwindcss": "^3.0.24"
+  }
+}
