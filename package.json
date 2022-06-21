@@ -1,6 +1,6 @@
 {
   "name": "vymob-frontend-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vymob Frontend Tools",
   "main": "index.js",
   "scripts": {
